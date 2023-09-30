@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <ul class="ul-navbar">
+      <h1 class="h-navbar">UAP</h1>
+      <li class="li-navbar"><a class="a-navbar" href="index.html">Store</a></li>
+      <li class="li-navbar">
+        <a class="a-navbar" href="#">Community</a>
+        <ul class="dropdown">
+          <li class="li-navbar"><a class="a-navbar" href="https://uap-marketplace.fandom.com/id/wiki/UAP_Marketplace_Wiki">Fandom</a></li>
+        </ul>
+      </li>
+      <li class="li-navbar"><a class="a-navbar" href="support.html">Support</a></li>
+    </ul>
+
+    <!-- Content -->
+    <div class="container-support">
+        <h1 class="h-support">Send an email</h1>
+        <div class="form-container">
+          <form class="form-support" action="https://formspree.io/f/mqkvgpqr" method="POST">
+            <div class="input">
+              <label for="nickname">Nickname :</label><br />
+              <input type="text" name="nickname" autocomplete="none" placeholder="Input your nickname" required/><br />
+              <label for="email">Email :</label><br />
+              <input type="email" name="email" placeholder="example@gmail.com" required/><br />
+            </div>
+            <div class="textarea">
+              <label for="isi-saran">Message :</label><br />
+              <textarea name="message" placeholder="Input your message" required></textarea> <br />
+              <input type="submit" value="Send" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Content end -->
+<script src="script.js"></script>
+  </body>
+</html>
