@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <ul class="ul-navbar">
+      <h1 class="h-navbar">UAP</h1>
+      <li class="li-navbar"><a class="a-navbar" href="index.html">Store</a></li>
+      <li class="li-navbar">
+        <a class="a-navbar" href="#">Community</a>
+        <ul class="dropdown">
+          <li class="li-navbar"><a class="a-navbar" href="https://uap-marketplace.fandom.com/id/wiki/UAP_Marketplace_Wiki">Fandom</a></li>
+        </ul>
+      </li>
+      <li class="li-navbar"><a class="a-navbar" href="support.html">Support</a></li>
+      <li class="li-navbar"><a class="a-navbar" href="uap-works.html">Publish</a></li>
+    </ul>
+
+    <!-- Content -->
+    <div class="container-works">
+      <h1 class="h-works">Uap Works</h1>
+      <div class="form-container-works">
+        <form class="form-works" action="https://formspree.io/f/mqkvgpqr" method="POST">
+          <div class="input-works">
+            <label for="company">Company form</label><br />
+            <input type="text" name="nickname" autocomplete="none" placeholder="" required /><br />
+            <br />
+            <label for="address">Street address </label><br />
+            <input type="text" name="address" autocomplete="none" placeholder="" required /><br />
+            <input type="text" name="address" autocomplete="none" placeholder="" required /><br />
+            <br />
+            <label for="city">City</label><br />
+            <input type="text" name="city" autocomplete="none" placeholder="" required /><br />
+            <br />
+            <div class="stated-form">
+                <div class="stated-form-inside">
+                    <label for="stated/province">Stated/Province</label><br>
+                    <input type="text" name="address" autocomplete="none" placeholder="" required /><br>
+                </div>
+                <div class="stated-form-inside">
+                    <label for="postal code">Postal Code</label><br />
+                    <input type="text" name="address" autocomplete="none" placeholder="" required /><br>
+                </div>
+            </div>
+            <label for="country">Country</label><br>
+            <input type="text" name="city" autocomplete="none" placeholder="" required /><br>
+            <br>
+            <label for="email">Payment notification email</label><br />
+            <input type="email" name="email" placeholder="" required /><br />
+          </div>
+          <div class="submit">
+              <input class="input-works" type="submit" value="Continue" />
+          </div>
+        </form>
+      </div>
+      <!-- Content end -->
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
